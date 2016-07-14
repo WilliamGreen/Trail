@@ -13,8 +13,8 @@ var session = require('express-session');
 var Q = require('q');
 
 // LOCAL DB
-var db = new Sequelize('mydbname', 'root', '', { // YOU MUST FIRST CREATE A DB IN MYSQL CALLED mydbname
-  host: "localhost",
+var db = new Sequelize('b3ugs3663myy5cix', 'f3riginhjkdsvs40', 'copsv10a4qzagdho', { // YOU MUST FIRST CREATE A DB IN MYSQL CALLED mydbname
+  host: "m60mxazb4g6sb4nn.chr7pe7iynqr.eu-west-1.rds.amazonaws.com",
   port: 3306,
   dialectOptions: {
      charset: 'utf8mb4',
